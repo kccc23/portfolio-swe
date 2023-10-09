@@ -1,11 +1,18 @@
-import SkillsC from "@/components/SkillsC";
+import React from 'react';
+import HorizontalParallax from '@/components/HorizontalParallax';
 
-export default function Home() {
-
+const Home: React.FC = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Home
-      <SkillsC />
-    </main>
-  )
-}
+    <div>
+      <div style={{ height: '200vh' }}>
+        {/* Content before the parallax section */}
+      </div>
+      <HorizontalParallax />
+      <div style={{ height: '200vh' }}>
+        {/* Content before the parallax section */}
+      </div>
+    </div>
+  );
+};
+
+export default Home;

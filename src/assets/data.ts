@@ -2,7 +2,8 @@ import { Data } from './types';
 
 const data: Data = {
     personalInfo: {
-        name: 'Kaining Chen',
+        firstName: 'Kaining',
+        lastName: 'Chen',
         title: 'Software Engineer',
         image: 'https://via.placeholder.com/300',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros sed nisl scelerisque ultricies. Sed lacinia, massa eget finibus hendrerit, nulla augue tincidunt nisi, at maximus elit nisl vel nunc. Nullam sit amet lectus vitae tortor',
@@ -29,6 +30,7 @@ const data: Data = {
         { id: 19, name: 'CI/CD' },
         { id: 20, name: 'SQL' },
         { id: 21, name: 'NoSQL' },
+        { id: 22, name: 'Unit Testing' },
     ],
     projects: [
         {
@@ -68,6 +70,7 @@ const data: Data = {
         gitLab: 'https://gitlab.com/kccc23',
         linkenin: 'https://linkedin.com/in/kaining-chen',
     },
+
 };
 
 export default data;
